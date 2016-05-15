@@ -181,8 +181,8 @@ Exemplo:
 
 ## Referências 
 <i>
-http://docs.openstack.org/infra/manual/developers.html  
-https://pypi.python.org/pypi/git-review
-https://git-scm.com/docs/git-config
-https://git-scm.com/docs/git-ls-remote.html 
+http://docs.openstack.org/infra/manual/developers.html   
+https://pypi.python.org/pypi/git-review  
+https://git-scm.com/docs/git-config  
+https://git-scm.com/docs/git-ls-remote.html  
 </i>
