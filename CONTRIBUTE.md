@@ -129,6 +129,56 @@ $ git clone https://github.com/openstack-dev/sandbox.git
 $ git remote add gerrit https://dritec@review.openstack.org/openstack-dev/sandbox.git
 ```
 
+## Considerações importantes
+
+**Bug Status:**
+
+* **New** - Recently logged by a non-triaging person.
+* **Incomplete** - Needs additional information before it can be triaged.
+* **Opinion** - Does not fit the project but can still be discussed.
+* **Invalid** - Not an issue for docs.
+* **Won't Fix** - Documentation fixes won't fix the issue.
+* **Confirmed** - Acknowledged that it is a documentation bug.
+* **Triaged** - Comments in the bug indicate its scope and amount of work to
+  be done.
+* **In Progress** - Someone is working on it.
+* **Fix Committed** - A fix is in the repository; Gerrit sets this
+  automatically. Do not set this manually.
+* **Fix Released** - A fix is published to the site.
+
+**Bug Importance:**
+
+* **Critical** - Data will be lost if this bug stays in; or it is so bad that
+  we are better off fixing it than dealing with all the incoming questions
+  about it. Also items on the website itself that prevent access are Critical
+  doc bugs.
+* **High** - Definitely need docs about this or a fix to current docs; docs are
+  incomplete without this. Work on these first if possible.
+* **Medium** - Need docs about this within a six-month release timeframe.
+* **Low** - Docs are fine without this but could be enhanced by fixing this
+  bug.
+* **Wishlist** - Not really a bug but a welcome change. If something is wrong
+  with the doc, mark the bug as Low rather than Wishlist.
+* **Undecided** - Recently logged by a non-triaging person or requires more
+  research before deciding its importance.
+
+
+Tags for doc bugs
+-----------------
+É importante selecionar uma tag, para dar mais visibilidade ao bug.
+
+Exemplo:  
+
+* **low-hanging-fruit** for documentaion bugs that are straightforward to fix.
+  If you are a newcomer, this is a way to start.
+
+* **sec guide**, **install guide**, **ops-guide**, and other for specific
+  guides.
+
+* **doc-builds** for documentation bugs that are in the documentation build
+  tool chain, such as the Sphinx theme, openstackdocstheme.
+
+
 ## Referências 
 <i>
 http://docs.openstack.org/infra/manual/developers.html  
