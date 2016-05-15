@@ -2,7 +2,6 @@
 Documentação de contribuição
 ==================
 
----
 #### Antes de contribuir é altamente recomendado a leitura dos links abaixo:
 
 * [How to contribute](https://wiki.openstack.org/wiki/How_To_Contribute)
