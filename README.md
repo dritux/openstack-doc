@@ -13,3 +13,8 @@ It includes these manuals:
 
     Adriano Fialho
     dritec@gmail.com
+
+### References
+
+[Image build Openstack](https://github.com/rcbops/oz-image-build)
+[Rackspace Git](https://github.com/rcbops)

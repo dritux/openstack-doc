@@ -4,7 +4,7 @@
 
 ```
 $ cp openstack_dashboard/local/local_settings.py.example openstack_dashboard/local/local_settings.py
-$ ./run_tests.sh --runserver 0.0.0.0:8877
+$ ./run_tests.sh --runserver
 ```
 
 ### Create dashboard
