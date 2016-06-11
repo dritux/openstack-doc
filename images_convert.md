@@ -1,6 +1,6 @@
 # CONVERT IMAGES
 
-### DEPENDENCIES
+### DEPENDENCY
 	$ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 
 ### Create a blank disc image
@@ -33,7 +33,7 @@
 - virtualbox
 
 
-# COMMANDS VIRSH
+# COMMAND VIRSH
 	$ virsh
 
 ```
@@ -45,11 +45,11 @@ virsh # list --all
 
 # REFERENCES
 
-[Wiki convert formats](https://en.wikibooks.org/wiki/QEMU/Images)
-[Convert kvm-pxe](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/OpenStack/page/Creating+qcow2+CentOS+Image+for+OpenStack)
-[Virt Commands](http://virt-tools.org/learning/install-with-command-line/)
-[Pfsense Images](http://mirror.transip.net/pfsense/downloads/)
-[Ubuntu Images](http://cloud-images.ubuntu.com/trusty/current/)
-[Debian Images](http://cdimage.debian.org/cdimage/openstack/current/)
-[Windows Image](https://cloudbase.it/downloads/qemu-img-win-x64-2_3_0.zip)
-[Docs qemu](http://qemu.weilnetz.de/qemu-doc.html)
+[Wiki convert formats](https://en.wikibooks.org/wiki/QEMU/Images)  
+[Convert kvm-pxe](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/OpenStack/page/Creating+qcow2+CentOS+Image+for+OpenStack)  
+[Virt Commands](http://virt-tools.org/learning/install-with-command-line/)  
+[Pfsense Images](http://mirror.transip.net/pfsense/downloads/)  
+[Ubuntu Images](http://cloud-images.ubuntu.com/trusty/current/)  
+[Debian Images](http://cdimage.debian.org/cdimage/openstack/current/)  
+[Windows Image](https://cloudbase.it/downloads/qemu-img-win-x64-2_3_0.zip)  
+[Docs qemu](http://qemu.weilnetz.de/qemu-doc.html)  
