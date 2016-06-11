@@ -43,7 +43,7 @@ virsh # list --all
 ```
 
 
-# REFERENCES
+### REFERENCES
 
 [Wiki convert formats](https://en.wikibooks.org/wiki/QEMU/Images)  
 [Convert kvm-pxe](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/OpenStack/page/Creating+qcow2+CentOS+Image+for+OpenStack)  
@@ -54,10 +54,10 @@ virsh # list --all
 [Cloudbase Windows Image](https://cloudbase.it/windows-cloud-images/#download)  
 [Docs qemu](http://qemu.weilnetz.de/qemu-doc.html)  
 [Cloudbase](https://cloudbase.it/euladownload.php?h=kvm)  
-[Create image for openstack](http://docs.openstack.org/image-guide/create-images-automatically.html)
-[Create windows image for openstack](https://poolsidemenace.wordpress.com/2011/06/16/porting-windows-to-openstack/)
+[Create image for openstack](http://docs.openstack.org/image-guide/create-images-automatically.html)  
+[Create windows image for openstack](https://poolsidemenace.wordpress.com/2011/06/16/porting-windows-to-openstack/)  
 
-# Download Images
+### Download Images for tests
 
 [Cirros 64 - Format img](http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img)  
 [Ubuntu 64 - Format img](http://uec-images.ubuntu.com/trusty/current/trusty-server-cloudimg-amd64-disk1.img)  
