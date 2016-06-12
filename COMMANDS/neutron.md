@@ -96,5 +96,6 @@ tap9684b07e-62:
 
 # References:
 
-[Under the hood: networking](https://github.com/lorin/openstack-hackspace/blob/master/under-the-hood-network.md)
-
+[Under the hood: networking](https://github.com/lorin/openstack-hackspace/blob/master/under-the-hood-network.md)  
+[Private project network](http://docs.openstack.org/liberty/install-guide-ubuntu/launch-instance-networks-private.html)  
+[Public provider network](http://docs.openstack.org/liberty/install-guide-ubuntu/launch-instance-networks-public.html#launch-instance-networks-public)  

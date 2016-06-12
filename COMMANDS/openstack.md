@@ -9,15 +9,19 @@ sudo service rabbitmq-server status
 
 ```
 
+sudo rabbitmq-plugins enable rabbitmq_management
+
+
 ### NETWORK
 
 	nmap -sT -O localhost
 	netstat -anp | grep 80
 	hostname -s
-	
+
 ### OPENSTACK
 
 ### Commands lists
+	openstack catalog list
 	openstack domain list
 	openstack service list
 	openstack project list --long --quote none -f csv
