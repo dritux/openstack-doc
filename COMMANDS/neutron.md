@@ -12,8 +12,8 @@ $ sudo ovs-ofctl dump-flows br-in
 $ sudo ovs-ofctl show br-int  
 $ sudo ovs-ofctl dump-flows br-ex  
 $ ip netns list # list namespace  
----
 ```
+---
 - run within the namespace  
 ```
 $ sudo ip netns exec qdhcp-5ce5aff5-8d18-4a5e-bae0-4b1fe97e998c ip a s  
@@ -31,18 +31,21 @@ $ sudo ip netns exec qdhcp-5ce5aff5-8d18-4a5e-bae0-4b1fe97e998c iptables -t nat 
 - Ping router icmp  
 ```
 $ sudo ip netns exec qrouter-d97396a0-0508-4554-9d85-83c47f55d146 ping 10.0.0.3  
-```
-> to release the icmp set in Access & Security   
+
+to release the icmp set in Access & Security
+```   
 ---
 
 - Access ssh with private ip  
 ```
-$ sudo ip netns exec qrouter-d97396a0-0508-4554-9d85-83c47f55d146 ssh cirros@10.0.0.3 
-``` 
-> to release the ssh set in Access & Security  
+$ sudo ip netns exec qrouter-d97396a0-0508-4554-9d85-83c47f55d146 ssh cirros@10.0.0.3  
+
+to release the ssh set in Access & Security
+```   
 ---
 - Associate floating ip and access ssh  
 > Instance >  Associate Floating IP > Added public ip address > Associate  
+
 ``` 
 $ ssh cirros@172.24.4.4  
 ```
