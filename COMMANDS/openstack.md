@@ -5,7 +5,17 @@
 systemctl restart openstack-keystone.service
 openstack-service status openstack-keystone
 openstack-service status openstack-keystone
+sudo service rabbitmq-server status
+
 ```
+
+### NETWORK
+
+	nmap -sT -O localhost
+	netstat -anp | grep 80
+	hostname -s
+	
+### OPENSTACK
 
 ### Commands lists
 	openstack domain list
