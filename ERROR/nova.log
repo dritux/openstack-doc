@@ -1,0 +1,17 @@
+ERROR
+
+==> /var/log/nova/nova-conductor.log <==
+... u"RescheduledException: Build of instance xxx-yyy-zzz was re-scheduled: internal error: no supported architecture for os type 'hvm'\n"]
+... NoValidHost: No valid host was found. There are not enough hosts available.
+
+
+SOLUTION
+
+This due to running OpenStack within a virtual machine. As on the compute host you are trying to run KVM but the virtualisation extensions KVM require are not available [1].
+
+To resolve the issue edit your /etc/nova/nova.conf to use qemu.
+
+libvirt_type=qemu
+
+
+###############################################################
