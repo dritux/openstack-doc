@@ -44,12 +44,15 @@ to release the ssh set in Access & Security
 ```   
 ---
 - Associate floating ip and access ssh  
-> Instance >  Associate Floating IP > Added public ip address > Associate  
-
 ``` 
+> Instance >  Associate Floating IP > Added public ip address > Associate 
+
 $ ssh cirros@172.24.4.4  
 ```
 
+### Exemple list instance comput node
+
+$ ip -o l sh|awk '{print $2}' 
 ```
 No instance
 
