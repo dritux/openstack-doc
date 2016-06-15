@@ -24,6 +24,8 @@ $ rabbitmqctl cluster_status
 $ rabbitmqctl status  
 $ sudo service rabbitmq-server status  
 $ sudo invoke-rc.d rabbitmq-server start  
+$ sudo rabbitmqctl list_exchanges name
+$ sudo rabbitmqctl list_queues
 
 $ sudo rabbitmqctl stop_app  
 $ sudo rabbitmqctl reset  
