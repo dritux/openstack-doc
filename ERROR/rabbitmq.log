@@ -1,0 +1,10 @@
+stack@dri ~/rabbitmq-erlang-client $ rabbitmq-plugins enable rabbitmq_management
+ls: não é possível acessar /etc/rabbitmq/rabbitmq.conf.d: Arquivo ou diretório não encontrado
+
+Solution:
+
+sudo mkdir /etc/rabbitmq/rabbitmq.conf.d
+
+---------------------------------------------------
+
+
