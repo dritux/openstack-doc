@@ -75,7 +75,6 @@ $ cd rabbitmq-erlang-client
 $ make  
 ```
 
-
 ### References
 [Management Api](https://cdn.rawgit.com/rabbitmq/rabbitmq-management/rabbitmq_v3_6_2/priv/www/api/index.html)  
 [Rabbitmq man](https://www.rabbitmq.com/man/rabbitmqctl.1.man.html)  
