@@ -78,3 +78,6 @@ $ make
 ### References
 [Management Api](https://cdn.rawgit.com/rabbitmq/rabbitmq-management/rabbitmq_v3_6_2/priv/www/api/index.html)  
 [Rabbitmq man](https://www.rabbitmq.com/man/rabbitmqctl.1.man.html)  
+[Installing on Homebrew](http://www.rabbitmq.com/install-homebrew.html)  
+[Configuration File](http://www.rabbitmq.com/configure.html#configuration-file)  
+[Basic Concepts by Brazuca ](http://blog.concretesolutions.com.br/2012/01/rabbitmq-conceitos-basicos/)  
