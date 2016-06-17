@@ -1,0 +1,16 @@
+2016-06-16 22:53:54.974 | +lib/nova_plugins/functions-libvirt:configure_libvirt:134  stop_service libvirt-bin
+2016-06-16 22:53:54.977 | +functions-common:stop_service:2300        '[' -x /bin/systemctl ']'
+2016-06-16 22:53:54.982 | +functions-common:stop_service:2303        sudo service libvirt-bin stop
+2016-06-16 22:53:55.036 | +./stack.sh:exit_trap:494                  echo 'Error on exit'
+2016-06-16 22:53:55.000 | stop: Unknown instance: 
+2016-06-16 22:53:55.006 | +functions-common:stop_service:1           exit_trap
+2016-06-16 22:53:55.036 | Error on exit
+2016-06-16 22:53:55.040 | +./stack.sh:exit_trap:495                  generate-subunit 1466117445 192 fail
+
+Solution: 
+sudo service libvirt-bin start
+
+:) rsrsrsrs
+
+Abrir chamado no devstack
+-----------------------------------------------------------
