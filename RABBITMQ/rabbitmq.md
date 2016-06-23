@@ -74,6 +74,9 @@ $ git clone https://github.com/rabbitmq/rabbitmq-erlang-client.git
 $ cd rabbitmq-erlang-client  
 $ make  
 ```
+---
+- Config file
+$ vim /etc/rabbitmq/rabbitmq-env.conf
 
 ### References
 [Management Api](https://cdn.rawgit.com/rabbitmq/rabbitmq-management/rabbitmq_v3_6_2/priv/www/api/index.html)  
