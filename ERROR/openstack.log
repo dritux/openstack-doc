@@ -5,3 +5,9 @@ url 404 ---> https://raw.githubusercontent.com/openstack/tacker/master/devstack/
 ----------------------------------
 http://tacker-docs.readthedocs.io/en/latest/devref/vnfd_template_parameterization.html
 url 404 ---> https://github.com/openstack/tacker/tree/master/devstack/samples
+
+----------------------------------
+https://wiki.openstack.org/wiki/Astara
+url 404 (source code)
+http://git.openstack.org/cgit/stackforge/akanda/
+----------------------------------

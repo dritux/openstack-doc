@@ -48,12 +48,43 @@
 * OPNFV - Open Platform for Network Function Virtualization
 * VNFM - VNF Manager
 * NFVO - NFV Orchestrator
+* ETSI - European Telecommunications Standards Institute
+* SDN - Redes definidas por software
+* NFV - Virtualização de funções de rede
 
+* OPENMANO - Telefonica - base ETSI MANO
+* Tacker - Openstack - Base ETSI MANO and TOSCA YAML
+* OPNFV - Openstack - ETSI - OpenContrail - OpenDaylight
+
+
+### OTHERS
+
+* ASTARA
+```
+Astara provides OpenStack operators with a vendor-agnostic network orchestration platform that addresses the
+complex nature and scale of Neutron implementations. Astara features a driver-based orchestrator to manage
+network functions from different providers on bare metal, in virtual machines (VMs) and containers.
+```
+
+* OPNFV
+```
+Open Platform for NFV (OPNFV) provides an open source platform for deploying NFV solutions that leverages investments from a community of developers and solution providers. The investments are designed to enable interoperability across a broad set of industry players and usage models. The goal is to create a framework that addresses the needs of the platform providers, application developers and end users who will be required to operate and maintain these complex systems.
+```
+
+* Tacker - OpenStack NFV Orchestration
+```
+Tacker is an official OpenStack project building a Generic VNF Manager (VNFM) and a NFV Orchestrator (NFVO) to deploy and operate Network Services and Virtual Network Functions (VNFs) on an NFV infrastructure platform like OpenStack. It is based on ETSI MANO Architectural Framework and provides a functional stack to Orchestrate Network Services end-to-end using VNFs.
+```
 
 
 ### References:
-[GIT Summit](https://github.com/yamahata/)  
-[GIT OPNFV](https://github.com/opnfv)   
 
-[Wiki](https://wiki.openstack.org/wiki/Tacker)  
-[OPNFV](https://www.opnfv.org/software)  
+[GIT Summit](https://github.com/yamahata/)
+[GIT OPNFV](https://github.com/opnfv)
+
+[Wiki Tacker](https://wiki.openstack.org/wiki/Tacker)
+[Tacker](http://tacker-docs.readthedocs.io/en/latest/)
+
+[OPNFV](https://www.opnfv.org/software)
+[OPNFV NEWS](https://www.opnfv.org/news-faq/press-release/2016/03/opnfv-delivers-second-release-open-source-network-functions)
+
