@@ -14,3 +14,20 @@ sudo service libvirt-bin start
 
 Abrir chamado no devstack
 -----------------------------------------------------------
+Instal tacker 
+
+reuirements/upper-constraints.txt (line 154))
+2016-06-24 00:20:05.831 | Installing collected packages: tacker
+2016-06-24 00:20:05.831 |   Running setup.py develop for tacker
+2016-06-24 00:20:07.499 | Successfully installed tacker-0.3.1.dev157
+2016-06-24 00:20:07.726 | Installing test-requirements for /opt/stack/tacker/test-requirements.txt
+2016-06-24 00:20:08.504 | Ignoring dnspython3: markers u"python_version=='3.4'" don't match your environment
+2016-06-24 00:20:08.622 | Ignoring ovs: markers u"python_version=='3.4'" don't match your environment
+2016-06-24 00:20:08.792 | Could not satisfy constraints for 'python-tackerclient': installation from path or url cannot be constrained to a version
+2016-06-24 00:20:09.010 | Error on exit
+
+
+/opt/stack/requirements $ rm -rf .venv
+/opt/stack/requirements $ virtualenv -p python3 .venv
+
+-----------------------------------------------------------
