@@ -37,3 +37,11 @@ vim /opt/stack/tacker/test-requirements.txt
 #http://tarballs.openstack.org/python-tackerclient/python-tackerclient-master.tar.gz#egg=python-tackerclient
 
 -----------------------------------------------------------
+2016-06-24 13:04:35.082 |   File "/usr/local/lib/python2.7/dist-packages/pymysql/err.py", line 115, in _check_mysql_exception
+2016-06-24 13:04:35.082 |     raise InternalError(errno, errorvalue)
+2016-06-24 13:04:35.082 | sqlalchemy.exc.InternalError: (pymysql.err.InternalError) (1833, u"Cannot change column 'id': used in a foreign key constraint 'devices_ibfk_2' of table 'tacker.devices'") [SQL: u'ALTER TABLE vims MODIFY id VARCHAR(36) NULL']
+2016-06-24 13:04:35.126 | Error on exit
+-----------------------------------------------------------
+
+
+

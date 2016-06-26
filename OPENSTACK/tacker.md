@@ -64,7 +64,7 @@ OpenWRT,
 ### Key features Mitaka:
 * Tacker Multi-Site allows Operators to place, manage and monitor VNFs in multiple OpenStack Clouds
 * Tacker Service Function Chaining API for a VNF level service-chaining backed by an SDN Controller
-* TOSCA Parser integration brings industry's first OASIS NFV Profile Standards based TOSCA Orchestrator
+* TOSCA Parser integration brings industry s first OASIS NFV Profile Standards based TOSCA Orchestrator
 * Enhanced VNF Placement placing VNFs the most efficient way with CPU-Pinning, NUMA topology awareness, etc
 
 ### Glossary:
@@ -74,7 +74,33 @@ OpenWRT,
 * OPNFV - Open Platform for Network Function Virtualization
 * VNFM - VNF Manager
 * NFVO - NFV Orchestrator
+* ETSI - European Telecommunications Standards Institute
+* SDN - Redes definidas por software
+* NFV - Virtualização de funções de rede
 
+* OPENMANO - Telefonica - base ETSI MANO
+* Tacker - Openstack - Base ETSI MANO and TOSCA YAML
+* OPNFV - Openstack - ETSI - OpenContrail - OpenDaylight
+
+
+### OTHERS
+
+* ASTARA
+```
+Astara provides OpenStack operators with a vendor-agnostic network orchestration platform that addresses the
+complex nature and scale of Neutron implementations. Astara features a driver-based orchestrator to manage
+network functions from different providers on bare metal, in virtual machines (VMs) and containers.
+```
+
+* OPNFV
+```
+Open Platform for NFV (OPNFV) provides an open source platform for deploying NFV solutions that leverages investments from a community of developers and solution providers. The investments are designed to enable interoperability across a broad set of industry players and usage models. The goal is to create a framework that addresses the needs of the platform providers, application developers and end users who will be required to operate and maintain these complex systems.
+```
+
+* Tacker - OpenStack NFV Orchestration
+```
+Tacker is an official OpenStack project building a Generic VNF Manager (VNFM) and a NFV Orchestrator (NFVO) to deploy and operate Network Services and Virtual Network Functions (VNFs) on an NFV infrastructure platform like OpenStack. It is based on ETSI MANO Architectural Framework and provides a functional stack to Orchestrate Network Services end-to-end using VNFs.
+```
 
 ### COMMANDS
 ```
@@ -125,5 +151,4 @@ tacker vnfd-create --vnfd-file=tosca_openwrt_vnfd.yaml --name=demo-vnf
 * VIDEOS
 [Tacker vBrownBag](https://www.youtube.com/watch?v=y9fYiIsIErc)
 [Tacker Demo](https://www.youtube.com/watch?v=EfqWArz25Hg)
-
 
