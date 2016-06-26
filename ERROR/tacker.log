@@ -1,0 +1,6 @@
+Erro: Failed to create VNF: ERROR: Property error: : resources.CP3.properties.network: : Error validating value 'pkt_out': Unable to find network with name or id 'pkt_out'
+
+Na criação do vnfd não valida as redes existentes.
+
+
+---------------------------------------------------------

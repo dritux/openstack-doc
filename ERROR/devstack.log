@@ -7,7 +7,7 @@
 2016-06-16 22:53:55.036 | Error on exit
 2016-06-16 22:53:55.040 | +./stack.sh:exit_trap:495                  generate-subunit 1466117445 192 fail
 
-Solution: 
+### Solution: 
 sudo service libvirt-bin start
 
 :) rsrsrsrs
@@ -26,8 +26,14 @@ reuirements/upper-constraints.txt (line 154))
 2016-06-24 00:20:08.792 | Could not satisfy constraints for 'python-tackerclient': installation from path or url cannot be constrained to a version
 2016-06-24 00:20:09.010 | Error on exit
 
-
+### attempt
 /opt/stack/requirements $ rm -rf .venv
 /opt/stack/requirements $ virtualenv -p python3 .venv
+
+
+
+### Solution: 
+vim /opt/stack/tacker/test-requirements.txt
+#http://tarballs.openstack.org/python-tackerclient/python-tackerclient-master.tar.gz#egg=python-tackerclient
 
 -----------------------------------------------------------
