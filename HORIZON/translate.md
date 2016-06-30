@@ -1,30 +1,72 @@
-# Django Translate in horizon
+# Django Translation, Internationalization and Localization in OpenStack
 
 
-### Compile messages in horizon
-
-./run_tests.sh --compilemessages
-./run_tests.sh --makemessages
-
----
 
 ### Estructure
 ```
-pfsense_dashboard/locale/
+app_name/locale/
 ├── djangojs.pot
 ├── django.pot
-└── pt_BR
-    └── LC_MESSAGES
-        └── django.po
-        └── django.mo
+├── pt_BR
+│   └── LC_MESSAGES
+│       ├── djangojs.mo
+│       ├── djangojs.po
+│       ├── django.mo
+│       └── django.po
+├── es
+│   └── LC_MESSAGES
+│       ├── djangojs.mo
+│       ├── djangojs.po
+│       ├── django.mo
+│       └── django.po
+
 ```
+
+### Compile messages
+
+* Example compile messages in horizon - default --all
+
+```
+Generating files .po
+$ ./run_tests.sh --compilemessages
+
+Compile .mo
+$ ./run_tests.sh --makemessages
+```
+
+* Example compile messages in django
+
+```
+Generating files .po
+$ python manage.py makemessages
+
+* Compile .mo
+$ python manage.py compilemessages
+```
+
+* Example compile message locale name
+
+```
+Generating message file .po
+$ python manage.py makemessages -l es
+
+* Compile .mo
+$ python manage.py compilemessages -l es
+```
+
+* Example generating message file .pot
+```
+$ python setup.py extract_messages
+```
+
 ---
 
-### Example message file .po an .pot
+### Example message files .po|.pot
 ```
 msgid "Mail Server"
 msgstr "Servidor de Email"
 ```
+
 ---
 
 ### Exec commandas manage.py
@@ -40,28 +82,16 @@ if __name__ == "__main__":
     execute_from_command_line(sys.argv)
 ```
 
+
 ---
 
-### Compile and install translate
+### Merge and install translate
 
 ```
-* EXTRACT .pot
-$ python setup.py extract_messages
-
-* EXTRACT .po
-$ python manage.py makemessages -l es
-
-* Compile .mo
-$ python manage.py compilemessages -l es
-
-
-$ python manage.py makemessages --all
-$ python manage.py compilemessages --all
-
 * Merge .pot in .po
-$ msgmerge -U openstack_dashboard/locale/es/LC_MESSAGES/django.po openstack_dashboard/locale/pfsense_dashboard.pot
+$ msgmerge -U openstack_dashboard/locale/es/LC_MESSAGES/django.po openstack_dashboard/locale/${YOURDJANGO}.pot
 
-* Check translations
+* Check install translations
 bash -c "find ${MODULENAME} -type f -regex '.*\.pot?' -print0| xargs -0 -n 1 --no-run-if-empty msgfmt --check-format -o /dev/null"
 
 ```

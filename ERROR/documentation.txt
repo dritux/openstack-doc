@@ -15,3 +15,9 @@ Sample VNFD parameterized templates and parameter values files can be found at
 https://github.com/openstack/tacker/tree/master/devstack/samples
 https://github.com/openstack/tacker/tree/master/samples
 ----------------------------------------------------------------
+Error 404
+http://docs.openstack.org/developer/osc-lib/
+in
+https://github.com/openstack/osc-lib
+
+

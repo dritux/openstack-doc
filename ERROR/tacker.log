@@ -4,3 +4,11 @@ Na criação do vnfd não valida as redes existentes.
 
 
 ---------------------------------------------------------
+No suport clone https
+git clone git://git.openstack.org/openstack/tacker-horizon.git /opt/stack/tacker-horizon
+git clone https://github.com/openstack/tacker-horizon.git /opt/stack/tacker-horizon
+
+---------------------------------------------------------
+empty
+tacker-horizon/test/README.md
+---------------------------------------------------------
