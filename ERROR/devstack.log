@@ -43,5 +43,7 @@ vim /opt/stack/tacker/test-requirements.txt
 2016-06-24 13:04:35.126 | Error on exit
 -----------------------------------------------------------
 
-
+2016-07-01 14:32:30.120 | [ERROR] /home/stack/www/devstack/functions-common:604 git call failed: [git clone git://git.openstack.org/openstack/python-barbicanclient.git /opt/stack/python-barbicanclient]
+2016-07-01 14:32:31.123 | Error on exit
+-----------------------------------------------------------
 
