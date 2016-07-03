@@ -7,6 +7,13 @@ http://tacker-docs.readthedocs.io/en/latest/devref/mano_api.html
 Adicionar request --> http://{{IP}}:9890/v1.0/vims
 
 ----------------------------------------------------------------
+
+Error 404 in https://wiki.openstack.org/wiki/Documentation/HowTo
+
+http://docs.openstack.org/contributor-guide/first-timers-quickstart.html
+HowTo for first timers
+
+----------------------------------------------------------------
 Error url 404 in
 http://tacker-docs.readthedocs.io/en/latest/devref/vnfd_template_parameterization.html
 
@@ -14,4 +21,9 @@ Sample VNFD parameterized templates and parameter values files can be found at
 
 https://github.com/openstack/tacker/tree/master/devstack/samples
 https://github.com/openstack/tacker/tree/master/samples
+
+
+https://github.com/openstack/tacker/commit/7d88448bb09f21700b05bdabd9dfdb70a6ab99a7
+
+Aprovado
 ----------------------------------------------------------------
