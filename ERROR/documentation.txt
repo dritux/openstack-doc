@@ -21,9 +21,19 @@ Sample VNFD parameterized templates and parameter values files can be found at
 
 https://github.com/openstack/tacker/tree/master/devstack/samples
 https://github.com/openstack/tacker/tree/master/samples
-
+<<<<<<< HEAD
 
 https://github.com/openstack/tacker/commit/7d88448bb09f21700b05bdabd9dfdb70a6ab99a7
 
 Aprovado
+----------------------------------------------------------------
+Error 404
+http://docs.openstack.org/developer/osc-lib/
+in
+https://github.com/openstack/osc-lib
+----------------------------------------------------------------
+ERROR URL GIT HTTPS IN --> http://docs.openstack.org/developer/barbican/setup/devstack.html
+enable_plugin barbican https://git.openstack.org/openstack/barbican
+enable_service rabbit mysql key
+
 ----------------------------------------------------------------

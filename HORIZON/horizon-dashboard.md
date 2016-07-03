@@ -24,11 +24,11 @@ $ mkdir openstack_dashboard/dashboards/mydashboard/mypanel
 $ ./run_tests.sh -m startpanel mypanel \
                --dashboard=openstack_dashboard.dashboards.mydashboard \
                --target=openstack_dashboard/dashboards/mydashboard/mypanel
-```    
-         
-### Structure   
- 
-```         
+```
+
+### Structure
+
+```
 mydashboard
 ├── dashboard.py
 ├── dashboard.pyc
@@ -52,32 +52,32 @@ mydashboard
 └── templates
     └── mydashboard
         └── base.html
-```  
+```
 
 ### Modify dashboard.py
 
-Open the dashboard.py file and insert the following code above the Mydashboard class. 
+Open the dashboard.py file and insert the following code above the Mydashboard class.
 
-```  
+```
 class Mygroup(horizon.PanelGroup):
     slug = "mygroup"
     name = _("My Group")
     panels = ('mypanel',)
-```  
+```
 
 Modify the Mydashboard class to include Mygroup and add mypanel as the default panel:
 
-```  
+```
 class Mydashboard(horizon.Dashboard):
    name = _("My Dashboard")
    slug = "mydashboard"
    panels = (Mygroup,)  # Add your panels here.
    default_panel = 'mypanel'  # Specify the slug of the default panel.
-```  
+```
 
 ### Enable and show the dashboard
 
-create a file called _50_mydashboard.py under openstack_dashboard/enabled and add the following:  
+create a file called _50_mydashboard.py under openstack_dashboard/enabled and add the following:
 
 
 ```
@@ -103,7 +103,7 @@ $ ./run_tests.sh --runserver 0.0.0.0:8877
 
 # Create Api request
 
-### Create method "message_get" in openstack_dashboard/api/neutron.py and add the following:  
+### Create method "message_get" in openstack_dashboard/api/neutron.py and add the following:
 
 ```
 def message_get(request, **params):
@@ -116,7 +116,7 @@ def message_get(request, **params):
     return response.json()
 ```
 
-### Open the view.py file and insert the following code in the get_data method. 
+### Open the view.py file and insert the following code in the get_data method.
 
 ```
 def get_data(self, request, context, *args, **kwargs):
@@ -125,7 +125,7 @@ def get_data(self, request, context, *args, **kwargs):
         msg = m
     return msg
 ```
-### Open the index.html file and insert the following code into block main:  
+### Open the index.html file and insert the following code into block main:
 
 ```
 <div class="row">
@@ -136,6 +136,6 @@ def get_data(self, request, context, *args, **kwargs):
 ```
 
 # References
-[Building a Dashboard using Horizon](http://docs.openstack.org/developer/horizon/topics/tutorial.html)  
-[Horizon Quickstart](http://docs.openstack.org/developer/horizon/quickstart.html)  
+[Building a Dashboard using Horizon](http://docs.openstack.org/developer/horizon/topics/tutorial.html)
+[Horizon Quickstart](http://docs.openstack.org/developer/horizon/quickstart.html)
 [Git: Client V2 Neutron](https://github.com/openstack/python-neutronclient/blob/master/neutronclient/v2_0/client.py)
