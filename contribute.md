@@ -107,6 +107,19 @@ $ git add .
 ```
 $ git commit # 50 chars and should not  end with a '.' .
 ```
+
+Example message commit:
+
+```
+modified condition variable project_choices
+
+the error was in condition "if > 1", which was allowing
+the default value only when the list had two or more values.
+
+Change-Id: If2ce5a5a3cb5f6411df0c023a818f20fa2130768
+Closes-Bug: #1602903
+```
+
 #### Enviar para o revisão
 ```
 $ git review
