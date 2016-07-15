@@ -10,19 +10,22 @@ Aprovado
 
 http://tacker-docs.readthedocs.io/en/latest/devref/mano_api.html
 Session --> POST /v1.0/vnfds
+https://github.com/openstack/tacker/commit/fcc16cafc18bd36e74d5e1535b2f8177eaabba32
 
-Em Andamento
+Aprovado
 ----------------------------------------------------------------
-http://tacker-docs.readthedocs.io/en/latest/devref/mano_api.html
-Adicionar request --> http://{{IP}}:9890/v1.0/vims
-
-----------------------------------------------------------------
-
 Error 404 in https://wiki.openstack.org/wiki/Documentation/HowTo
 http://docs.openstack.org/contributor-guide/first-timers-quickstart.html
 
-http://docs.openstack.org/contributor-guide/quickstart/first-timers.html
+correta --> http://docs.openstack.org/contributor-guide/quickstart/first-timers.html
 HowTo for first timers
+
+https://wiki.openstack.org/wiki/Tacker/Installation
+url 404 ---> https://raw.githubusercontent.com/openstack/tacker/master/devstack/samples/local.conf.example
+
+https://wiki.openstack.org/wiki/Astara
+url 404 (source code)
+http://git.openstack.org/cgit/stackforge/akanda/
 
 Impossível contribuir na wiki
 ----------------------------------------------------------------
@@ -40,14 +43,11 @@ enable_service rabbit mysql key
 
 Em Andamento
 ----------------------------------------------------------------
-https://wiki.openstack.org/wiki/Tacker/Installation
-url 404 ---> https://raw.githubusercontent.com/openstack/tacker/master/devstack/samples/local.conf.example
-----------------------------------
 
-https://wiki.openstack.org/wiki/Astara
-url 404 (source code)
-http://git.openstack.org/cgit/stackforge/akanda/
-----------------------------------
+http://tacker-docs.readthedocs.io/en/latest/devref/mano_api.html
+Adicionar request --> http://{{IP}}:9890/v1.0/vims
+
+----------------------------------------------------------------
 
 http://tacker-docs.readthedocs.io/en/latest/devref/vnfd_template_parameterization.html
 url 404 ---> https://github.com/openstack/tacker/tree/master/devstack/samples
