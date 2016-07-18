@@ -152,3 +152,9 @@ tacker vnfd-create --vnfd-file=tosca_openwrt_vnfd.yaml --name=demo-vnf
 [Tacker vBrownBag](https://www.youtube.com/watch?v=y9fYiIsIErc)
 [Tacker Demo](https://www.youtube.com/watch?v=EfqWArz25Hg)
 
+* OTHERS
+[TOSCA Technical Committee Public Page (latest documents, updates, and more)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tosca)  
+[OASIS YouTube Channel, TOSCA Playlist](https://www.youtube.com/user/OASISopen , http://bit.ly/1BQGGHm)  
+[TOSCA Simple Profile in YAML v1.0 (latest committee approved draft)](http://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.0/TOSCA-Simple-Profile-YAML-v1.0.pdf)  
+[TOSCA Simple Profile for NFV v1.0 (latest committee approved draft)](http://docs.oasis-open.org/tosca/tosca-nfv/v1.0/csd02/tosca-nfv-v1.0-csd02.pdf)  
+
