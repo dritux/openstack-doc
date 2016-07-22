@@ -1,0 +1,13 @@
+heat_template_version: 2013-05-23
+
+description: Heat template to deploy a single compute instance
+
+resources:
+  dev_nfv:
+    type: OS::Nova::Server
+    properties:
+      name: example single
+      image: cirros
+      flavor: m1.tiny
+      networks:
+        - network: internal-admin

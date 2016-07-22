@@ -1,0 +1,25 @@
+heat_template_version: 2013-05-23
+description: Simple template to deploy a single compute instance with parameters
+
+parameters:
+  image_id:
+    type: string
+    label: Image Name
+    description: Image to be used for compute instance
+  instance_type:
+    type: string
+    label: Instance Type
+    description: Type of instance (flavor) to be used
+  network_id1:
+    type: string
+    label: Network Name
+    description: SCONETWORK ID of the (nova) network a server should be deployed to.
+resources:
+  my_instance:
+    type: OS::Nova::Server
+    properties:
+      name: input param
+      image: { get_param: image_id }
+      flavor: { get_param: instance_type }
+      networks:
+        - network : { get_param : network_id1 }
