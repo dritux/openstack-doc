@@ -10,4 +10,4 @@ resources:
       image: cirros
       flavor: m1.tiny
       networks:
-        - network: internal-admin
+        - network: external
